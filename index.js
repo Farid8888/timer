@@ -5,7 +5,7 @@ const timerEl = document.querySelector('span');
 // Напишите реализацию createTimerAnimator
 // который будет анимировать timerEl
 // `${Math.trunc(hh)}:${Math.trunc(mm)}:${Math.trunc(ss)}`
-let timeVar = setInterval(()=>{},1000)
+let timeVar 
 const timer = (seconds)=>{
   let hh = Math.floor(seconds /3600);
   let mm = Math.floor((seconds - hh*3600)/60);
